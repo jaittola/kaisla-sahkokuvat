@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "S/Y Kaisla"
-Date "2021-03-14"
+Date "2021-04-04"
 Rev "1"
 Comp "Jukka Aittola"
 Comment1 ""

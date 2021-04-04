@@ -1,0 +1,97 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Conn_Wallsocket_3pin_mod
+#
+DEF Conn_Wallsocket_3pin_mod J 0 0 N Y 1 F N
+F0 "J" 150 275 50 H V C BNN
+F1 "Conn_Wallsocket_3pin_mod" 300 100 50 V I C BNN
+F2 "" -300 100 50 H I C CNN
+F3 "" -300 100 50 H I C CNN
+DRAW
+A 225 100 150 901 -901 0 1 10 f 225 250 225 -50
+C 0 -200 14 0 1 0 F
+S 225 -10 160 10 0 1 0 N
+S 225 90 160 110 0 1 0 N
+S 225 190 160 210 0 1 0 N
+P 2 0 1 0 160 0 0 0 N
+P 2 0 1 0 160 200 0 200 N
+P 2 0 1 10 225 -50 225 250 N
+P 4 0 1 0 0 -200 25 -200 25 100 160 100 N
+X L 1 -200 200 200 R 50 50 1 1 W
+X N 2 -200 0 200 R 50 50 1 1 W
+X PE 3 -200 -200 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_pin
+#
+DEF Conn_pin J 0 40 N N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Conn_pin" 0 -100 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# No_pin_nums_5_conns
+#
+DEF No_pin_nums_5_conns J 0 40 N N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "No_pin_nums_5_conns" 50 -200 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*2Rows*Pins__*
+ *FCC*2Rows*Pins__*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -150 1 1 10 f
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# No_pin_nums_6_conns
+#
+DEF No_pin_nums_6_conns J 0 40 N N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "No_pin_nums_6_conns" 0 -400 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -350 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
